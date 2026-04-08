@@ -1,0 +1,21 @@
+# Build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage and generated artifacts
+coverage.out
+coverage.txt
+artifacts/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
