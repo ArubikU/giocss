@@ -4,6 +4,8 @@ giocss is a Go CSS engine extracted from Polyloft BVM.
 
 It provides a lightweight HTML-like node model, stylesheet parsing and resolution, layout helpers, input normalization, and a Gio-based runtime/rendering layer for desktop UI experiments and host runtimes.
 
+![giocss preview](readme-preview.png)
+
 ## Features
 
 - StyleSheet creation, mutation, and CSS text parsing
@@ -64,6 +66,10 @@ func main() {
 
 ```bash
 go test ./...
+```
+
+```bash
+go run ./samples/cmd/generate-previews
 ```
 
 ## Docs
